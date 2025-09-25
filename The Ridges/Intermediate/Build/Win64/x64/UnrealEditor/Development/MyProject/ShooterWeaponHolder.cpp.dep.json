@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\anime\\onedrive\\documents\\unreal projects\\myproject\\source\\myproject\\variant_shooter\\weapons\\shooterweaponholder.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\anime\\onedrive\\documents\\unreal projects\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\anime\\onedrive\\documents\\unreal projects\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\users\\anime\\onedrive\\documents\\unreal projects\\myproject\\source\\myproject\\variant_shooter\\weapons\\shooterweaponholder.h",
+            "c:\\users\\anime\\onedrive\\documents\\unreal projects\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\shooterweaponholder.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

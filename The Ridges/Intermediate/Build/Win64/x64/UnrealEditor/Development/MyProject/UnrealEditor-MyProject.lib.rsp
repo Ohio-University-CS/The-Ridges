@@ -1,0 +1,34 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MyProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/MyProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Module.MyProject.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProject.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProjectCameraManager.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProjectCharacter.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProjectGameMode.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/MyProjectPlayerController.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/HorrorCharacter.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/HorrorGameMode.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/HorrorPlayerController.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/HorrorUI.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterCharacter.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterGameMode.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterPlayerController.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/EnvQueryContext_Target.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterAIController.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterNPC.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterStateTreeUtility.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterBulletCounterUI.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterUI.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterPickup.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterProjectile.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterWeapon.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/ShooterWeaponHolder.cpp.obj"
+"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/Default.rc2.res"
+/OUT:"C:/Users/anime/OneDrive/Documents/Unreal Projects/MyProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/MyProject/UnrealEditor-MyProject.lib"
