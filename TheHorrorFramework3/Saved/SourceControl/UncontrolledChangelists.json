@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/anime/OneDrive/Documents/Unreal Projects/TheHorrorFramework3/Content/Horror_Template/Demo/Texts_Wall/BP_Text_On_Walls.uasset"
+			]
+		}
+	]
+}
