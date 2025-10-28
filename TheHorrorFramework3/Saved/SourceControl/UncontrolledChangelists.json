@@ -5,6 +5,16 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Content/Horror_Template/Maps/Main_Menu_Map.umap",
+				"C:/Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Content/Fab/Megascans/Surfaces/Construction_Gravel_ngsqJ0/Medium/ngsqJ0_tier_2/Materials/MI_ngsqJ0.uasset",
+				"C:/Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Content/Fab/Megascans/Surfaces/Construction_Gravel_ngsqJ0/Medium/ngsqJ0_tier_2/Textures/T_ngsqJ0_2K_B.uasset",
+				"C:/Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Content/Fab/Megascans/Surfaces/Construction_Gravel_ngsqJ0/Medium/ngsqJ0_tier_2/Textures/T_ngsqJ0_2K_N.uasset",
+				"C:/Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Content/Fab/Megascans/Surfaces/Construction_Gravel_ngsqJ0/Medium/ngsqJ0_tier_2/Textures/T_ngsqJ0_2K_ORM.uasset",
+				"C:/Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Content/Fab/Megascans/Surfaces/Brick_Wall_Worn_sexkaitb/Medium/sexkaitb_tier_2/Textures/T_sexkaitb_2K_B.uasset",
+				"C:/Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Content/Fab/Megascans/Surfaces/Brick_Wall_Worn_sexkaitb/Medium/sexkaitb_tier_2/Textures/T_sexkaitb_2K_B_Mat.uasset",
+				"C:/Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Content/Fab/Megascans/Surfaces/Brick_Wall_Worn_sexkaitb/Medium/sexkaitb_tier_2/Textures/T_sexkaitb_2K_N.uasset",
+				"C:/Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Content/Fab/Megascans/Surfaces/Brick_Wall_Worn_sexkaitb/Medium/sexkaitb_tier_2/Textures/T_sexkaitb_2K_ORM.uasset",
+				"C:/Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Content/Horror_Template/Demo/Example_Blockout_Map/Demo_Showcase.umap",
 				"C:/Users/casen/OneDrive/Documents/Unreal Projects/The-Ridges/TheHorrorFramework3/Content/Horror_Template/UI/Main_Menu_UI/WBP_Main_Menu.uasset",
 				"C:/Users/anime/OneDrive/Documents/Unreal Projects/TheHorrorFramework3/Content/Horror_Template/Demo/Texts_Wall/BP_Text_On_Walls.uasset"
 			]
