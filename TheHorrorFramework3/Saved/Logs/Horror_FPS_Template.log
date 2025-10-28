@@ -1522,3 +1522,6 @@ FPackageName: Skipped package /Game/Horror_Template/BrickTextures148/materials/M
 [2025.10.28-18.50.18:389][696]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.28-18.50.18:389][696]AssetCheck: /Game/Horror_Template/Demo/Example_Blockout_Map/Demo_Showcase Validating asset
 [2025.10.28-18.50.18:411][696]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/anime/OneDrive/Documents/GitHub/The-Ridges/TheHorrorFramework3/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.28-18.52.59:373][690]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 678.987671
+[2025.10.28-18.53.00:372][693]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.28-18.53.00:372][693]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 679.655029, Update Interval: 306.121399
