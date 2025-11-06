@@ -1,0 +1,30 @@
+name: Godot Unit Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Download Godot (stable version, headless for CI)
+      - name: Setup Godot
+        uses: firebelley/godot-ci@v2
+        with:
+          godot-version: "4.2.4" 
+          headless: true
+
+      # Step 3: Run unit tests
+      - name: Run Godot tests
+        run: |
+          godot --headless --path . --script tests/gameplay_tests.gd
