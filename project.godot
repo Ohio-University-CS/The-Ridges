@@ -1,0 +1,12 @@
+; Engine configuration file.
+; It's best edited using the editor UI and saved.
+;
+; Format: https://docs.godotengine.org/
+
+config_version=5
+
+[application]
+config/name="The-Ridges-Tests"
+
+[rendering]
+renderer/rendering_method="mobile"
