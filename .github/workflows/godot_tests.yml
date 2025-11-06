@@ -1,4 +1,4 @@
-name: Godot 4 Unit Tests
+name: Godot Tests
 
 on:
   push:
@@ -7,20 +7,23 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Checkout repository
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      # Step 2: Download Godot 4 headless binary
-      - name: Download Godot 4 headless
+      - name: Download Godot 4 (Linux, headless)
         run: |
-          GODOT_VERSION=4.2.4
-          wget -q https://downloads.tuxfamily.org/godotengine/${GODOT_VERSION}/Godot_v${GODOT_VERSION}-stable_linux_headless.x86_64.zip -O godot.zip
+          GODOT_VERSION=4.2.2
+          FILE=Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip
+          URL=https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable/$FILE
+          echo "Downloading $URL"
+          curl -L "$URL" -o godot.zip
+          sudo apt-get update
+          sudo apt-get install -y unzip
           unzip -q godot.zip -d godot
-          chmod +x godot/Godot_v${GODOT_VERSION}-stable_linux_headless.x86_64
+          chmod +x godot/Godot_v${GODOT_VERSION}-stable_linux.x86_64
 
-      # Step 3: Run your GDScript tests
-      - name: Run Godot tests (headless)
+      - name: Run unit tests 
         run: |
-          ./godot/Godot_v4.2.4-stable_linux_headless.x86_64 --headless --path . --script res://Tests/run_tests.gd
+          GODOT_VERSION=4.2.2
+          ./godot/Godot_v${GODOT_VERSION}-stable_linux.x86_64 --headless --path . --script tests/run_tests.gd
