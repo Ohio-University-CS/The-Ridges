@@ -204,10 +204,12 @@ func test_coin_on_body_entered_cases() -> void:
 # 7) Killzone._on_body_entered: time scale, timer, and collision removal
 func test_killzone_body_entered_cases() -> void:
 	var kz := _instantiate_with_script(Area2D.new(), "res://Scripts/killzone.gd")
-	kz.timer = Timer.new()
-	kz.add_child(kz.timer)
+	var t := Timer.new()
+	t.name = "Timer"  # ensure the onready $Timer path resolves
+	kz.add_child(t)
 	# Add to the active SceneTree so Timer.start() works and get_tree() is valid
 	get_root().add_child(kz)
+	await process_frame
 
 	var body := Node2D.new()
 	var collider := CollisionShape2D.new()
@@ -230,6 +232,9 @@ func test_killzone_timeout_cases() -> void:
 	var kz := _instantiate_with_script(Area2D.new(), "res://Scripts/killzone.gd")
 	# Ensure node is inside the SceneTree to make get_tree() non-null
 	get_root().add_child(kz)
+	await process_frame
+	# Provide a dummy current_scene so reload_current_scene() doesn't error
+	current_scene = Node2D.new()
 	# Case 1: From slow motion back to normal
 	Engine.time_scale = 0.25
 	kz._on_timer_timeout()

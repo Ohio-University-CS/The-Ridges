@@ -28,7 +28,9 @@ func flip_flashlight(facing_right: bool) -> void:
 func _physics_process(delta: float) -> void:
 	# Gravity
 	if not is_on_floor():
-		velocity += get_gravity() * delta
+		# Use project gravity (Godot 4): physics/2d/default_gravity is a float in pixels/s^2
+		var g: float = ProjectSettings.get_setting("physics/2d/default_gravity")
+		velocity.y += g * delta
 
 	# Jump
 	if Input.is_action_just_pressed("jump") and is_on_floor():
