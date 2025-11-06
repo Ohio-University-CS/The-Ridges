@@ -1,4 +1,4 @@
-name: Godot Unit Tests
+name: Godot Tests
 
 on:
   push:
@@ -17,14 +17,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Step 2: Download Godot (stable version, headless for CI)
-      - name: Setup Godot
-        uses: firebelley/godot-ci@v2
-        with:
-          godot-version: "4.2.4" 
-          headless: true
+      # Step 2: Install Godot 3 headless
+      - name: Install Godot 3
+        run: |
+          wget https://downloads.tuxfamily.org/godotengine/3.2.3/Godot_v3.2.3-stable_x11.64.zip
+          unzip Godot_v3.2.3-stable_x11.64.zip -d godot
+          chmod +x godot/Godot_v3.2.3-stable_x11.64
 
-      # Step 3: Run unit tests
+      # Step 3: Run tests
       - name: Run Godot tests
         run: |
-          godot --headless --path . --script tests/gameplay_tests.gd
+          ./godot/Godot_v3.2.3-stable_x11.64 --headless --path . --script res://Tests/gameplay_tests.gd
