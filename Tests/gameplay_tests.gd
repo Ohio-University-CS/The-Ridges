@@ -1,4 +1,4 @@
-extends SceneTree
+extends Node
 
 # Lightweight GDScript gameplay unit tests
 # Run with:
