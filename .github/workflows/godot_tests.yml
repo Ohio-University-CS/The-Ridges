@@ -26,4 +26,4 @@ jobs:
       - name: Run unit tests 
         run: |
           GODOT_VERSION=4.2.2
-          ./godot/Godot_v${GODOT_VERSION}-stable_linux.x86_64 --headless --path . --script tests/run_tests.gd
+          ./godot/Godot_v${GODOT_VERSION}-stable_linux.x86_64 --headless --path . --script Tests/run_tests.gd
