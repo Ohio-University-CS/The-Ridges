@@ -72,3 +72,7 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#Ignores annoying ass merge conflict folders
+TheHorrorFramework3/Intermediate/
+TheHorrorFramework3/Saved/
