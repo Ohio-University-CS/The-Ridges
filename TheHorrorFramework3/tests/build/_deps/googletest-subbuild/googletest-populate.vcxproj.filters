@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\a9e7e9cdcf6b692d8b7da88dc34f4fcb\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\a9e7e9cdcf6b692d8b7da88dc34f4fcb\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\a9e7e9cdcf6b692d8b7da88dc34f4fcb\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\a9e7e9cdcf6b692d8b7da88dc34f4fcb\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\a9e7e9cdcf6b692d8b7da88dc34f4fcb\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\a9e7e9cdcf6b692d8b7da88dc34f4fcb\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\a9e7e9cdcf6b692d8b7da88dc34f4fcb\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\a9e7e9cdcf6b692d8b7da88dc34f4fcb\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\848ce8dd1441d30bcf56bce1ca09a68b\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\8503faf7fee3130563fa0a727da6661a\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\casen\OneDrive\Documents\Unreal Projects\The-Ridges\TheHorrorFramework3\tests\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{544B6243-A2B5-32A6-A8CE-3A138EB0E06E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
