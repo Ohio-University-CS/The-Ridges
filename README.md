@@ -17,7 +17,8 @@ https://godotengine.org/download
 
 https://www.unrealengine.com/en-US/download
 
-2. Clone the main repo:
+- Clone the main repo:
+   
 https://github.com/Ohio-University-CS/The-Ridges.git
 
 
@@ -31,35 +32,41 @@ https://github.com/Ohio-University-CS/The-Ridges.git
 6. Usage Examples:
    
 1) Starting the game
+   
    - Launch the project in the engine (Godot/Unreal)
    - Press Start on the Main Menu to load the level inspired by the real location of The Ridges
    - The player begins the level with limited visibility and a flashlight
      
-2) Interacting with Items:
+3) Interacting with Items:
    
    input:
+   
    - Both games allow you to have a Flashlight(Press F to use)
    - Find collectables to pickup (Notes tombstones etc)
   
      
    output:
+   
    - Doors are able to open(Throught the 3D game)
    - You are able to escape with enough items collected
 
 4) Enemy Encounter:
    
    input:
+   
      -Enemy roams throught the hallways
      -Enemy chases the player throughout
   
      
    output:
+   
    - Use flashlight to scare off the enemy(Godot Version)
    - Try to outrun the enemy through a maze (Unreal Version) 
    
    
      
 6) Screenshot examples:
+   
    Godot Version:
    - Dark Hallways
 
@@ -77,18 +84,18 @@ https://github.com/Ohio-University-CS/The-Ridges.git
 
 6. Known Issues:
 
--1 Gameplay bugs:
+- Gameplay bugs:
 
 
 
 
--2 Visual and Audio bugs:
+- Visual and Audio bugs:
 
 
 
 
 
--3 
+- 
 
 
 
@@ -102,6 +109,7 @@ https://github.com/Ohio-University-CS/The-Ridges.git
 
 
 8. Contributers:
+   
    1) Matthew: 
    2) Ahmad:
    3) Casen:
