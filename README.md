@@ -1,11 +1,12 @@
 1.Project Description: 
-
+Our project is an interactive horror game that incorporates both a 2d and 3d version. We used the infamous old lunatic asylum now owned by the university as inspiration, and we built upon that. We added some historical context to the game while maintaining a scary atmosphere. 
 
 
 
 2. Features:
-
-
+- AI Trackin technology
+- Scary soundtrack and sound effects
+- Good story line with interesting lore   
 
 
 
