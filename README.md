@@ -31,41 +31,45 @@ https://github.com/Ohio-University-CS/The-Ridges.git
 
 6. Usage Examples:
    
-1) Starting the game
+i) Starting the game
    
    - Launch the project in the engine (Godot/Unreal)
    - Press Start on the Main Menu to load the level inspired by the real location of The Ridges
    - The player begins the level with limited visibility and a flashlight
      
-3) Interacting with Items:
+ii) Interacting with Items:
    
    input:
    
    - Both games allow you to have a Flashlight(Press F to use)
+     
    - Find collectables to pickup (Notes tombstones etc)
   
      
    output:
    
-   - Doors are able to open(Throught the 3D game)
+   - Doors are able to open(Through out the 3D game)
+     
    - You are able to escape with enough items collected
 
-4) Enemy Encounter:
+iii) Enemy Encounter:
    
    input:
    
-     -Enemy roams throught the hallways
+     -Enemy roams through the hallways
+     
      -Enemy chases the player throughout
   
      
    output:
    
    - Use flashlight to scare off the enemy(Godot Version)
+     
    - Try to outrun the enemy through a maze (Unreal Version) 
    
    
      
-5) Screenshot examples:
+iv) Screenshot examples:
    
    Godot Version:
    - Dark Hallways
@@ -85,23 +89,22 @@ https://github.com/Ohio-University-CS/The-Ridges.git
 6. Known Issues:
 
 - Gameplay bugs:
-
-
-
+  
+- Enemy struggles to reach the player
+  
+- The charaters often run into things they arent supposed too
+  
+- AI  models
+  
+- Most collectables were sctrached from the main game
 
 - Visual and Audio bugs:
 
+- Some of the map is cut from main game since it was buggy and unfinished
 
+- Music will not play during main game (2D)
 
-
-
-- 
-
-
-
-
-
-
+- Some graphics are not showing up for the 2D game and 3D
 
 
 7. Future work:
