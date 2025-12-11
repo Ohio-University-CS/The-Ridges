@@ -106,10 +106,10 @@ https://github.com/Ohio-University-CS/The-Ridges.git
 
 7. Future work:
 Some new/improved features, and bug fixes that we could implement for future updates may include
-   a. fully implemented collectible system where the game won't let you leave until you have all of them.
-   b. Improved animations to add tension to the game.
-   c. Multiple ways to escape from the building other than the final maze.
-   d. Add more 3D models and different-looking rooms to add more variation to the map when exploring
+   - fully implemented collectible system where the game won't let you leave until you have all of them.
+   - Improved animations to add tension to the game.
+   - Multiple ways to escape from the building other than the final maze.
+   - Add more 3D models and different-looking rooms to add more variation to the map when exploring
 
 
 8. Contributors:
