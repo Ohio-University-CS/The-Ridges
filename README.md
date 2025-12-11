@@ -65,7 +65,7 @@ https://github.com/Ohio-University-CS/The-Ridges.git
    
    
      
-6) Screenshot examples:
+5) Screenshot examples:
    
    Godot Version:
    - Dark Hallways
@@ -105,16 +105,20 @@ https://github.com/Ohio-University-CS/The-Ridges.git
 
 
 7. Future work:
+Some new/improved features, and bug fixes that we could implement for future updates may include
+   a. fully implemented collectible system where the game won't let you leave until you have all of them.
+   b. Improved animations to add tension to the game.
+   c. Multiple ways to escape from the building other than the final maze.
+   d. Add more 3D models and different-looking rooms to add more variation to the map when exploring
 
 
-
-8. Contributers:
+8. Contributors:
    
-   1) Matthew: 
-   2) Ahmad:
-   3) Casen:
-   4) Noah:
-   5) Gavin:
+   1) Matthew Carpenter: 2D lead game developer
+   2) Ahmad Abdelqader: Lead Game designer and project planner for the 3D game, developed the flashlight mechanics, implemented lore, and made the map of the game.
+   3) Casen Ward: Implemented a fully functional AI system and jumpscares for the main entity.
+   4) Noah Sanchez: Developed a full UI, note system, and the ending of the game with an ending cinematic for the 3D game.
+   5) Gavin Boyd: Implemented the final maze chase sequence for the 3D game.
 
 
 
